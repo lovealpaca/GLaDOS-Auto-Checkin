@@ -503,7 +503,7 @@ def push_yunhu(token: str, recv_id: str, title: str, content: str) -> bool:
         recv_type = "group"
     return _push_request(
         "云湖机器人",
-        "https://chat-go.jwzhd.com/open-apis/v1/bot/send",
+        "https://chat-go.jwzhd.com/open-apis/v1/bot/send-message",
         json_payload={
             "token": token,
             "recvId": recv_id,
